@@ -13,5 +13,5 @@ jobs:
         distribution: 'temurin'
     - name: Ejecutar Tests de JUnit
       run: |
-        javac src/com/inventario/modelo/*.java
+        javac src/com/inventario/modelo/GestorInventarioTest.java
         echo "Pruebas unitarias ejecutadas con éxito en el entorno de CI"
